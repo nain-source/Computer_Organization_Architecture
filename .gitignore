@@ -1,0 +1,7 @@
+# ModelSim generated files
+work/
+*.wlf
+*.cr.mti
+
+# Backup files
+*.bak
