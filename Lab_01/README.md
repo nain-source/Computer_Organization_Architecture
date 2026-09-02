@@ -43,4 +43,4 @@ To get familiar with ModelSim and use them to design and simulate basic digital 
 
 ## Verification
 
-The Verilog designs were tested using ModelSim testbenches, and the required circuits were also implemented and verified in Logisim.
+The Verilog designs were tested using ModelSim testbenches.
