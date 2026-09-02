@@ -38,4 +38,4 @@ To implement common combinational circuits using Verilog gate-level and dataflow
 
 ## Verification
 
-The circuits were tested using Verilog testbenches in ModelSim and the required circuits were also created and verified in Logisim.
+The circuits were tested using Verilog testbenches in ModelSim.
