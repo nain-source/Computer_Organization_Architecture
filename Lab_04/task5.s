@@ -1,8 +1,5 @@
-# ============================================================
-# Computer Architecture Lab (EL-2012)
-# Lab #04 - Task 5
-# Table of Two and Memory Loads
-# ============================================================
+
+# Table of Two
 
 .data
 table: .word 2
