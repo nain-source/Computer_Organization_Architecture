@@ -1,0 +1,47 @@
+============================================================
+RISC-V ASSEMBLY LANGUAGE
+Computer Oraganization & Architecture Lab 04
+Task 1 - Part v Instruction Formats and Machine Language
+============================================================
+
+REGISTER MAPPING
+t0 = x5     t1 = x6     t2 = x7
+t3 = x28    t4 = x29    t5 = x30
+
+R-TYPE FORMAT
+funct7 | rs2 | rs1 | funct3 | rd | opcode
+
+R-type opcode = 0110011
+
+Instruction       funct7    rs2   rs1   funct3   rd   opcode
+add t2,t0,t1       0000000    6     5     000     7    0110011
+sub t3,t0,t1       0100000    6     5     000    28    0110011
+mul t4,t0,t1       0000001    6     5     000    29    0110011
+mul t5,t0,t0       0000001    5     5     000    30    0110011
+
+R-TYPE MACHINE CODES
+
+Instruction        Binary Machine Code                     Decimal
+add t2,t0,t1       00000000011000101000001110110011        6456243
+sub t3,t0,t1       01000000011000101000111000110011        1080200755
+mul t4,t0,t1       00000010011000101000111010110011        40013491
+mul t5,t0,t0       00000010010100101000111100110011        38965043
+
+I-TYPE INSTRUCTIONS
+The program also uses ADDI instructions to initialize A and B.
+
+I-type format:
+immediate | rs1 | funct3 | rd | opcode
+
+ADDI opcode = 0010011
+
+Instruction        Immediate   rs1   funct3   rd   opcode
+addi t0,x0,5        5           0     000      5    0010011
+addi t1,x0,4        4           0     000      6    0010011
+
+
+I-TYPE MACHINE CODES
+
+Instruction        Binary Machine Code                     Decimal
+addi t0,x0,5       00000000010100000000001010010011        5243539
+addi t1,x0,4       00000000010000000000001100010011        4195091
