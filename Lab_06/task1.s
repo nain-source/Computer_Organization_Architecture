@@ -9,6 +9,7 @@ add t1, s0, a0			# result should be 1003+2500
 li a0,1						# setup system call for display (command in a0)
 mv a1, t1						# data to display in a1
 ecall						# displays result on console
+j end
 
 procedure:
 addi sp,sp,-4
@@ -19,3 +20,4 @@ add a0, s0, t0
 lw s0,0(sp)
 addi sp,sp,4
 jalr zero, ra, 0			# return
+end:
