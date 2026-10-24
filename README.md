@@ -1,27 +1,29 @@
 # Computer Organization and Architecture Labs
 
-This repository contains my Computer Organization and Architecture lab work using Verilog in ModelSim and RISC-V assembly in Venus.
+This repository contains lab implementations using Verilog, ModelSim, Logisim, and RISC-V assembly in Venus. Each lab is organized in its own folder with source files and a README describing the tasks, concepts, and tools.
 
 ## Labs
 
 | Lab | Topic | Status |
 |---|---|---|
 | Lab 01 | Basic Logic Gates, XOR and 1's Complement | Completed |
-| Lab 02 | Combinational Circuits using Gate-Level and Dataflow Modeling | Completed |
-| Lab 03 | Combinational Circuits using Behavioral Modeling | Completed |
-| Lab 04 | RISC-V Assembly and Venus Simulator | Completed |
-| Lab 05 | To be added | Pending |
-| Lab 06 | RISC-V Procedures and Venus Simulator | Completed |
-| Lab 07 | To be added | Pending |
-| Lab 08 | To be added | Pending |
-| Lab 09 | To be added | Pending |
+| Lab 02 | Combinational Circuits | Completed |
+| Lab 03 | Behavioral Modeling of Combinational Circuits | Completed |
+| Lab 04 | RISC-V Assembly Fundamentals | Completed |
+| Lab 05 | RISC-V Control Instructions and Loops | Completed |
+| Lab 06 | RISC-V Procedures and Recursion | Completed |
+| Lab 07 | Arithmetic Logic Unit (ALU) Design | Added |
+| Lab 08 | Program Counter and Instruction Memory | Added |
+| Lab 09 | Register File Design | Added |
 | Lab 10 | To be added | Pending |
 | Lab 11 | To be added | Pending |
 | Lab 12 | To be added | Pending |
 | Lab 13 | To be added | Pending |
 
 ## Tools
-- ModelSim
-- Venus Simulator
 
-Each lab has a separate folder containing its Verilog files and a README describing the work performed.
+- ModelSim for Verilog compilation and simulation
+- Logisim for digital circuit design and simulation
+- Venus for RISC-V assembly execution
+
+Open the README inside a lab folder for its task list, source-file map, and instructions for running the work.
