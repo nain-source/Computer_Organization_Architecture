@@ -12,10 +12,10 @@ This repository contains lab implementations using Verilog, ModelSim, Logisim, a
 | Lab 04 | RISC-V Assembly Fundamentals | Completed |
 | Lab 05 | RISC-V Control Instructions and Loops | Completed |
 | Lab 06 | RISC-V Procedures and Recursion | Completed |
-| Lab 07 | Arithmetic Logic Unit (ALU) Design | Added |
-| Lab 08 | Program Counter and Instruction Memory | Added |
-| Lab 09 | Register File Design | Added |
-| Lab 10 | To be added | Pending |
+| Lab 07 | Arithmetic Logic Unit (ALU) Design | Completed |
+| Lab 08 | Program Counter and Instruction Memory | Completed |
+| Lab 09 | Register File Design | Completed |
+| Lab 10 | Single-Cycle Datapath Design | Completed |
 | Lab 11 | To be added | Pending |
 | Lab 12 | To be added | Pending |
 | Lab 13 | To be added | Pending |
@@ -26,4 +26,4 @@ This repository contains lab implementations using Verilog, ModelSim, Logisim, a
 - Logisim for digital circuit design and simulation
 - Venus for RISC-V assembly execution
 
-Open the README inside a lab folder for its task list, source-file map, and instructions for running the work.
+Open the README inside a lab folder for its task list, source-file map, and instructions for running the work. Lab 10 includes additional steps for loading the instruction ROM and manually applying the datapath control signals.
