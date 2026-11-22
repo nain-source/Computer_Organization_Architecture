@@ -27,3 +27,7 @@ This repository contains lab implementations using Verilog, ModelSim, Logisim, a
 - Venus for RISC-V assembly execution
 
 Open the README inside a lab folder for its task list, source-file map, and instructions for running the work. Lab 10 includes additional steps for loading the instruction ROM and manually applying the datapath control signals.
+
+## ModelSim Setup
+
+ModelSim's generated `work/` library is not committed. In a lab folder, run `vlib work` in the Transcript before compiling if the library does not already exist. See each relevant lab README for details.

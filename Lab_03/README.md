@@ -37,3 +37,7 @@ To implement and simulate combinational circuits using Verilog behavioral-level 
 ## Verification
 
 The Adder/Subtractor, MUX, and 2-bit Comparator are verified using testbenches in ModelSim.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.

@@ -39,3 +39,7 @@ To implement common combinational circuits using Verilog gate-level and dataflow
 ## Verification
 
 The circuits were tested using Verilog testbenches in ModelSim.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.

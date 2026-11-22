@@ -36,3 +36,7 @@ Design and simulate ALUs at multiple levels of abstraction, from a 1-bit ALU to 
 ## Running and Verification
 
 Open the relevant `.v` file in ModelSim, compile it, and simulate the appropriate top-level module/testbench. Open `Logisim_32bit_ALU.circ` in Logisim to inspect and simulate the circuit. The source files are separate designs; compile only the files needed for the selected task to avoid duplicate module definitions.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.

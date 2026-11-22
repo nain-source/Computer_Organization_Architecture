@@ -33,3 +33,7 @@ Implement program counters and instruction memories, then integrate a 32-bit RV3
 ## Running and Verification
 
 Open the required `.v` file in ModelSim, compile it, and simulate its top-level testbench/module. Inspect the PC and instruction outputs across clock edges. Open `Logisim_32bit_PC_Instruction_Memory.circ` in Logisim to inspect and simulate the circuit. Compile only the file required for the task because files may reuse module names.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.

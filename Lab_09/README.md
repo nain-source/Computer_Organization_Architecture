@@ -30,3 +30,7 @@ Build and simulate a small 4×4 register file and a 32×32, 32-bit register file
 ## Running and Verification
 
 Open the relevant `.v` file in ModelSim, compile it, and simulate the appropriate testbench/top-level module. The 4×4 testbench applies the specified write/read sequence. For the 32×32 design, verify asynchronous read outputs and clock-edge-controlled writes, including reset and writes to register address zero. Open `Logisim_32bit_Register_File.circ` in Logisim to inspect and simulate the circuit. Compile only the file required for the selected task because some helper modules are defined locally in each source file.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.

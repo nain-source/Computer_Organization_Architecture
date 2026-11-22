@@ -44,3 +44,7 @@ To get familiar with ModelSim and use them to design and simulate basic digital 
 ## Verification
 
 The Verilog designs were tested using ModelSim testbenches.
+
+## ModelSim Library Setup
+
+The generated `work/` folder is not included. Before compiling on a new computer, open the ModelSim Transcript in this lab folder and run `vlib work` once. If `work` already exists, skip this command. Then compile the required Verilog file.
