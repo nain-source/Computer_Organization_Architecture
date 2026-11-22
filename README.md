@@ -16,7 +16,7 @@ This repository contains lab implementations using Verilog, ModelSim, Logisim, a
 | Lab 08 | Program Counter and Instruction Memory | Completed |
 | Lab 09 | Register File Design | Completed |
 | Lab 10 | Single-Cycle Datapath Design | Completed |
-| Lab 11 | To be added | Pending |
+| Lab 11 | RISC-V Data Memory Design | Completed |
 | Lab 12 | To be added | Pending |
 | Lab 13 | To be added | Pending |
 
